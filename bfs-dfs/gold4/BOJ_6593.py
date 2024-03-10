@@ -26,6 +26,7 @@ def bfs(x, y, z):
     print('Trapped!')
 
 while True:
+
     l, r, c = map(int, input().split())
 
     if l == 0 and r == 0 and c == 0:
