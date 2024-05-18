@@ -38,7 +38,7 @@ def move_arduino():
                     min_dist = dist
                     min_loc = (nx, ny)
                     board[nx][ny] = 'R'
-
+    print(board)
 
 def move(direction):
     global loc_jongsu
@@ -56,3 +56,4 @@ def move(direction):
 def solution():
     for i,v in enumerate(direction):
         move_arduino()
+        print(board)
